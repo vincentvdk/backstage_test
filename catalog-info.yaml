@@ -6,7 +6,7 @@ metadata:
   labels:
     testlabel: cest 
   annotations:
-    backstage.io/techdocs-ref: dir:./docs
+    backstage.io/techdocs-ref: dir:.
   tags:
     - iac
   links:
