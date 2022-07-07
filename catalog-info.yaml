@@ -4,7 +4,7 @@ metadata:
   name: cest-service
   description: A CEST demo service
   labels:
-    'example.com/custom': 
+    testlabel: cest 
   #annotations:
   tags:
     - iac
