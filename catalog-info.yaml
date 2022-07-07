@@ -29,6 +29,7 @@ spec:
   lifecycle: production
   owner: CEST
   system: service
+  consumesApis: ['s2']
   definition: |
     openapi: "3.0.0"
     info:
