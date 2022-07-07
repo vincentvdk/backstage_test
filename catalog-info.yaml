@@ -22,14 +22,14 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: cest-service
+  name: cest-api
   description: AWS crawler
 spec:
   type: openapi
   lifecycle: production
   owner: CEST
   system: service
-  consumesApis: ['s2']
+  consumesApis: [cest-service]
   definition: |
     openapi: "3.0.0"
     info:
