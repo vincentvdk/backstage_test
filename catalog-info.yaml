@@ -5,7 +5,8 @@ metadata:
   description: A CEST demo service
   labels:
     testlabel: cest 
-  #annotations:
+  annotations:
+    backstage.io/techdocs-ref: dir:./docs
   tags:
     - iac
   links:
